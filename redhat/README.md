@@ -114,6 +114,25 @@ Openshift Resources:
   
 ![image](https://github.com/vikascjadhav/training/assets/3233682/eac0a2b9-0fa8-43d0-801e-aca03bab73fc)
 
+Example shows Source to Image process (s2i) 
+```
+oc new-project s2i
+sleep 5
+oc new-app --name java-serverhost  -i redhat-openjdk18-openshift:1.8  https://github.com/vikascjadhav/DO288-apps#manage-builds --context-dir java-serverhost
+oc expose svc java-serverhost
+
+#http://java-serverhost-s2i.apps.ocp4.example.com/
+```
+
+Other command 
+```
+
+oc get pods # should show builder pods
+
+oc get route
+oc edit deployment/java-serverhost
+oc get deployment/java-serverhost -o yaml #or json
+```
 
 <a name="micro"></a>
 ## 5. Microprofile and Microservices
