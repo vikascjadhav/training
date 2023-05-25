@@ -34,33 +34,10 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 ## 3. Containerization Tools
 ### Podman and Docker
 
+Podman is an open-source container engine that allows you to manage and run containers on Linux systems. Similiar to docker. But it has some improvement in terms of security such as support for rootless container.
 
 
 
-### Podman Commands
-
-This is a list of important Podman commands for managing containers.
-
-#### Image Management
-
-- `podman pull <image>`: Pull an image from a container registry.
-- `podman images`: List locally available container images.
-- `podman rmi <image>`: Remove a local container image.
-
-#### Container Lifecycle Management
-
-- `podman run <image>`: Create and start a new container from an image.
-- `podman ps`: List running containers.
-- `podman start <container>`: Start a stopped container.
-- `podman stop <container>`: Stop a running container.
-- `podman restart <container>`: Restart a container.
-- `podman rm <container>`: Remove a stopped container.
-
-#### Container Information and Logs
-
-- `podman inspect <container>`: Display detailed information about a container.
-- `podman logs <container>`: Fetch the logs of a container.
-- `podman top <container>`: Display the running processes inside a container.
 
 
 
