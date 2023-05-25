@@ -3,7 +3,10 @@
 2. [ Containerization & Virtulization ](#cont)
 3. [ Containerization Tools ](#ctools)
 4. [Orchestration Platform](#orch)
-5. [Tools](#tools)
+5. [Microprofile and Microservice](#micro)
+6. [Cloud-Native Development with Quarkus](#cloud)
+7. [Service Mesh](#mesh)
+8. [Tools](#tools)
 
 Containerization Tools
 <a name="RHCA"></a>
@@ -66,11 +69,35 @@ Orchestration platform will compare current state of k8s cluster and try to matc
   ![image](https://github.com/vikascjadhav/training/assets/3233682/202d7768-bb6f-4450-a71f-f2c0a3b59a59)
 
 
+Everything in openshift is API  
+- Example: **oc get** constructs the appropriate REST API request and sends it to the OpenShift API server to fetch the requested data.
 
+```
+  $oc get pods #retries all the pods in project/namespace
+```
 
+Openshift Resources:
+1. Pod
+2. Deployment
+3. Service
+4. Route
+5. ConfigMap
+6. Secret
+7. PersistentVolume
+8. Project (Namespace)
+9. ImageStream
+
+<a name="micro"></a>
+## 5. Microprofile and Microservices
+
+<a name="cloud"></a>
+## 6. Cloud Native Development
+
+<a name="mesh"></a>
+## 7. Service Mesh
 
 <a name="tools"></a>
-## 7. Tools List
+## 8. Tools List
 
 - Kubernetes - is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
 - Helm - Helm is a popular package manager for Kubernetes that simplifies the deployment and management of applications and services on a Kubernetes cluster. 
