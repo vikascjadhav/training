@@ -77,15 +77,19 @@ Everything in openshift is API
 ```
 
 Openshift Resources:
-1. Pod
-2. Deployment
-3. Service
-4. Route
-5. ConfigMap
-6. Secret
-7. PersistentVolume
-8. Project (Namespace)
+1. Project (Namespace)
+2. Pod
+3. Deployment
+4. Service
+5. Route
+6. ConfigMap
+7. Secret
+8. PersistentVolume
 9. ImageStream
+
+  
+![image](https://github.com/vikascjadhav/training/assets/3233682/eac0a2b9-0fa8-43d0-801e-aca03bab73fc)
+
 
 <a name="micro"></a>
 ## 5. Microprofile and Microservices
@@ -138,6 +142,7 @@ Service mesh is a technology designed to address microservice architecture probl
 ### Maitra 
  - modified verions of Istio for Openshift
 
+### We started with containerirization -> Orchestration -> Service mesh
 
 <a name="tools"></a>
 ## 8. Tools List
