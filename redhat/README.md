@@ -103,6 +103,9 @@ microservices-based architecture and provides portability across multiple runtim
 are designed to build and run scalable applications in public, private, and hybrid clouds.
 Exa containers, microservices, Kubernetes, and other modern technologies serve as examples.
 
+cloud-native Technologies enable - resiliency, maintainability, observability, and their
+processes are automated to allow for frequent updates and deployments.
+
 
 Quarkus is a cloud-native framework, which means that the main deployment
 platform is the container. 
@@ -112,6 +115,29 @@ platform is the container.
 
 <a name="mesh"></a>
 ## 7. Service Mesh
+
+Side Car Proxy Pattern - Inside pod we run proxy container along with application container
+![image](https://github.com/vikascjadhav/training/assets/3233682/1e0c49cf-378a-4494-b5ef-e104773cdbb3)
+
+
+
+
+
+Service mesh is a technology designed to address microservice architecture problems. This technology abstracts developers from many of the microservice architectural problems.
+- Development challenges - Service Discivery/Elasticity
+- Security challenges - Since there is high degree of communication between service due to Architecture. Security should be implemented across services.
+- Operation challenges - Microservices must be resilient to failures
+
+![image](https://github.com/vikascjadhav/training/assets/3233682/8ae874b1-9147-4c13-874e-44938e6d5154)
+
+![image](https://github.com/vikascjadhav/training/assets/3233682/660c725b-9f84-400b-b331-3c18253d8aa9)
+
+
+### Istio 
+ - Open source service mesh implementation 
+### Maitra 
+ - modified verions of Istio for Openshift
+
 
 <a name="tools"></a>
 ## 8. Tools List
