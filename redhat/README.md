@@ -36,7 +36,7 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 
 Podman is an open-source container engine that allows you to manage and run containers on Linux systems. </br>
 
-#### key features
+#### key features of Podman
 - Alternative to Docker
 - Daemonless Architecture: Unlike docker which has **dockerd** daemon 
 - Support rootless container
