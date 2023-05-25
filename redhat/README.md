@@ -24,15 +24,11 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 <a name="cont"></a>
 ## 2. Containerization & Virtulization
 
-sometext 
-dd
+  A container is a set of one or more processes that are isolated from the rest of the system.
+  
+  ![image](https://github.com/vikascjadhav/training/assets/3233682/44406ae0-fc1c-4f48-92b1-4a69e6c79168)
 
 
-
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name=" Red Hat Trainings and Certification"/>
 
 <a name="tools"></a>
 ## 3. Containerization Tools
