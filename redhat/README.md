@@ -55,12 +55,19 @@ Podman is an open-source container engine that allows you to manage and run cont
 
 - Container orchestration automates the deployment, management, scaling, and networking of containers
 
-##### why we need them?
+#### why we need them?
 - limitations of Container technology to manage containers at scale
 
+Orchestration platform will compare current state of k8s cluster and try to match it desired state of cluster
+
 ##### Container Orchestration Platforms
-###### Kubernetes (k8s)
-###### Redhat OpenShift Container Platform
+- ##### Kubernetes (k8s)
+- ##### Redhat OpenShift Container Platform
+  ![image](https://github.com/vikascjadhav/training/assets/3233682/202d7768-bb6f-4450-a71f-f2c0a3b59a59)
+
+
+
+
 
 <a name="tools"></a>
 ## 7. Tools List
