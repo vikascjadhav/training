@@ -23,7 +23,7 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 
 
 <a name="cont"></a>
-## 2. Containerization & Virtulization
+## 2. Containerization Technology & Virtulization Technology
 
   A container is a set of one or more processes that are isolated from the rest of the system.
   
@@ -45,10 +45,15 @@ Podman is an open-source container engine that allows you to manage and run cont
 - supports **Dockerfile** and **Containerfile**
 
 <a name="orch"></a>
-## 3. Cloud Orchestration Platform
+## 3. Container Orchestration Platforms
+Container orchestration automates the deployment, management, scaling, and networking of containers
 
 - why we need them?
-- Limitations of Containers
+- limitations of Container technology
+
+##### Kubernetes (k8s)
+##### Redhat OpenShift Container Platform
+
 
 
 
