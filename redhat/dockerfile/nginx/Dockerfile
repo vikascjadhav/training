@@ -1,12 +1,4 @@
-FROM docker.io/bitnami/nginx
+FROM quay.io/vikacjadhav/httpd-parent:latest 
+LABEL custom-name=image-do288
 
-RUN pwd
-
-COPY test /tmp/test
-RUN cd /tmp/test && cat hello
-RUN cd /tmp/test && pwd && ./runTest.sh
-RUN pwd 
-EXPOSE 9090/tcp
-EXPOSE 9091/udp
-ENTRYPOINT ["/opt/bitnami/scripts/nginx/entrypoint.sh"]
-CMD ["/opt/bitnami/scripts/nginx/run.sh"]
+EXPOSE 8080

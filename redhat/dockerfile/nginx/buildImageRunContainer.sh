@@ -1,6 +1,6 @@
-podman build --format docker -t nginx .
-podman run -d --name nginx nginx
+podman build --format docker -t my-httpd .
+podman run -d --name my-httpd-container localhost/my-httpd
 
 #Showing list of exposed ports
 
-podman inspect nginx| grep -i -A3 9090
+podman inspect nginx| grep -i -A3 8080
