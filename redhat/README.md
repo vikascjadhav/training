@@ -51,6 +51,30 @@ Podman is an open-source container engine that allows you to manage and run cont
 - command syntax is same as Docker [Podman commands](https://docs.podman.io/en/latest/Commands.html)
 - supports **Dockerfile** and **Containerfile**
 
+Example 
+
+
+Below is child image Dockerfile - which uses [parent image](https://github.com/vikascjadhav/DO288-apps/blob/main/exam-EX288-practice/build-child-image-practice/httpd-parent-fixed/Dockerfile) and copies src/index.html content to DOCROOT of apache 
+```
+  FROM quay.io/vikacjadhav/httpd-parent:latest 
+  LABEL custom-name=image-do288
+  EXPOSE 8080
+```
+
+Building docker file and running docker image 
+```
+ podman build --format docker -t my-httpd-child .  
+ podman run -d --name my-httpd-child -p 8080:8080 my-httpd-child
+ sleep 5
+ curl localhost:8080
+```
+
+Cleaning up container and image 
+```
+ podman stop my-httpd-child
+ podman rm my-httpd-child
+ podman rmi my-httpd-child
+```
 <a name="orch"></a>
 ## 4. Container Orchestration Platforms
 
