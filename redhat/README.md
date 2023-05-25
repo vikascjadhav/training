@@ -69,7 +69,9 @@ Podman is an open-source container engine that allows you to manage and run cont
 - Helm - Helm is a popular package manager for Kubernetes that simplifies the deployment and management of applications and services on a Kubernetes cluster. 
 - JKube -  Also known as Fabric8 Maven Plugin, is a collection of Maven plugins and tools that simplify the deployment of Java applications to Kubernetes and OpenShift clusters.
 - Kiali - Kiali is an open-source observability tool designed for monitoring and visualizing the behavior of applications running on a Kubernetes cluster.
--Jaeger -Jaeger is an open-source distributed tracing system that helps developers monitor, profile, and troubleshoot complex microservices-based architectures.
+- Jaeger - Jaeger is an open-source distributed tracing system that helps developers monitor, profile, and troubleshoot complex microservices-based architectures.
+- Grafana - Grafana is an open-source data visualization and monitoring platform that allows users to create interactive and customizable dashboards for analyzing and monitoring various data sources.
+- Prometheus - Prometheus is an open-source monitoring and alerting system designed for collecting and analyzing metrics from various sources
 
 
 
