@@ -48,11 +48,12 @@ Podman is an open-source container engine that allows you to manage and run cont
 ## 3. Container Orchestration Platforms
 Container orchestration automates the deployment, management, scaling, and networking of containers
 
-- why we need them?
-- limitations of Container technology
+##### why we need them?
+- limitations of Container technology to manage containers at scale
 
 ##### Kubernetes (k8s)
 ##### Redhat OpenShift Container Platform
+
 
 
 
