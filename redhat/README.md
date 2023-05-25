@@ -40,9 +40,9 @@ Podman is an open-source container engine that allows you to manage and run cont
 - Alternative to Docker
 - Daemonless Architecture: Unlike docker which has **dockerd** daemon 
 - Support rootless container
-- command syntax is same as Docker
+- command syntax is same as Docker [Podman commands](https://docs.podman.io/en/latest/Commands.html)
 - supports **Dockerfile** and **Containerfile**
-[Podman commands](https://docs.podman.io/en/latest/Commands.html)
+
 
 
 
