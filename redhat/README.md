@@ -186,7 +186,20 @@ Service mesh is a technology designed to address microservice architecture probl
  - modified verions of Istio for Openshift
 
 ### We started with containerirization -> Orchestration -> Service mesh
+Service mesh example
+```
+lab observe-kiali start
+KIALI_URL=$(oc get route kiali  -n istio-system -o jsonpath='{.spec.host}')
+firefox ${KIALI_URL} &
+GATEWAY_URL=$(oc get route istio-ingressgateway -n istio-system -o jsonpath='{.spec.host}')
+while true; do curl ${GATEWAY_URL}/greet; sleep 3;done
 
+while true; do curl ${GATEWAY_URL}/chained; sleep 3;done
+
+oc create -f english-v2-deploy.yaml
+
+oc create -f english-v2-all.yaml
+```
 <a name="tools"></a>
 ## 8. Tools List
 
