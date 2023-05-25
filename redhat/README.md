@@ -3,6 +3,7 @@
 2. [ Containerization & Virtulization ](#cont)
 3. [ Containerization Tools ](#tools)
 4. [Orchestration Platform](#orch)
+5. [Tools](#tools)
 
 Containerization Tools
 <a name="RHCA"></a>
@@ -48,7 +49,7 @@ Podman is an open-source container engine that allows you to manage and run cont
 - supports **Dockerfile** and **Containerfile**
 
 <a name="orch"></a>
-## 3. Container Orchestration Platforms
+## 4. Container Orchestration Platforms
 
 - Orchestration vs Automation
 
@@ -60,6 +61,15 @@ Podman is an open-source container engine that allows you to manage and run cont
 ##### Container Orchestration Platforms
 ###### Kubernetes (k8s)
 ###### Redhat OpenShift Container Platform
+
+<a name="tools"></a>
+## 7. Tools List
+
+- Kubernetes - is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+- Helm - Helm is a popular package manager for Kubernetes that simplifies the deployment and management of applications and services on a Kubernetes cluster. 
+- JKube -  Also known as Fabric8 Maven Plugin, is a collection of Maven plugins and tools that simplify the deployment of Java applications to Kubernetes and OpenShift clusters.
+- Kiali - Kiali is an open-source observability tool designed for monitoring and visualizing the behavior of applications running on a Kubernetes cluster.
+-Jaeger -Jaeger is an open-source distributed tracing system that helps developers monitor, profile, and troubleshoot complex microservices-based architectures.
 
 
 
