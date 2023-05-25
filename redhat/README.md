@@ -34,7 +34,15 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 ## 3. Containerization Tools
 ### Podman and Docker
 
-Podman is an open-source container engine that allows you to manage and run containers on Linux systems. Similiar to docker. But it has some improvement in terms of security such as support for rootless container.
+Podman is an open-source container engine that allows you to manage and run containers on Linux systems. </br>
+
+#### key features
+- Alternative to Docker
+- Daemonless Architecture: Unlike docker which has **dockerd** daemon 
+- Support rootless container
+- command syntax is same as Docker
+- supports **Dockerfile** and **Containerfile**
+[Podman commands](https://docs.podman.io/en/latest/Commands.html)
 
 
 
