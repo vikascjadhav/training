@@ -25,7 +25,10 @@ https://www.linkedin.com/pulse/journey-red-hat-certified-architect-rhca-vikas-ja
 <a name="cont"></a>
 ## 2. Containerization Technology & Virtulization Technology
 
-  A container is a set of one or more processes that are isolated from the rest of the system.
+  - A container is a set of one or more processes that are isolated from the rest of the system.
+  
+  - Traditional Apps have Physical host or VM as its runtime 
+  - Container Apps have their own runtime environment as container
   
   ![image](https://github.com/vikascjadhav/training/assets/3233682/44406ae0-fc1c-4f48-92b1-4a69e6c79168)
 
@@ -46,13 +49,17 @@ Podman is an open-source container engine that allows you to manage and run cont
 
 <a name="orch"></a>
 ## 3. Container Orchestration Platforms
-Container orchestration automates the deployment, management, scaling, and networking of containers
+
+- Orchestration vs Automation
+
+- Container orchestration automates the deployment, management, scaling, and networking of containers
 
 ##### why we need them?
 - limitations of Container technology to manage containers at scale
 
-##### Kubernetes (k8s)
-##### Redhat OpenShift Container Platform
+##### Container Orchestration Platforms
+###### Kubernetes (k8s)
+###### Redhat OpenShift Container Platform
 
 
 
