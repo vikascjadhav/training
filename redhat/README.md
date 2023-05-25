@@ -89,9 +89,26 @@ Openshift Resources:
 
 <a name="micro"></a>
 ## 5. Microprofile and Microservices
+https://microprofile.io/
+MicroProfile specification is a joint venture between the Eclipse Foundation and many large
+vendors including Red Hat. The specification defines a platform that optimizes Java for a
+microservices-based architecture and provides portability across multiple runtimes.
+
+![image](https://github.com/vikascjadhav/training/assets/3233682/5b5350f5-2c1f-4c53-b409-91c4847f0eca)
 
 <a name="cloud"></a>
 ## 6. Cloud Native Development
+
+**Cloud-native** is a very general term that aims to describe technologies. These technologies
+are designed to build and run scalable applications in public, private, and hybrid clouds.
+Exa containers, microservices, Kubernetes, and other modern technologies serve as examples.
+
+
+Quarkus is a cloud-native framework, which means that the main deployment
+platform is the container. 
+- Container first approach
+- Developer Friendly
+- Native Executables - using Graal VM ( Mandrel is open source verion of Graal)
 
 <a name="mesh"></a>
 ## 7. Service Mesh
